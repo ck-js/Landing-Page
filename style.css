@@ -1,0 +1,26 @@
+body {
+    height: 100bh;
+margin: 0;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+background-color: RGB(29	40	56	);
+color: #eee;
+padding: 0 100px;
+}
+
+ul,
+ a {
+list-style-type: none;
+text-decoration: none;
+color: #eee;
+}
+
+.header-links ul {
+    display: flex;
+gap: 32px;
+}
