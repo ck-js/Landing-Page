@@ -1,7 +1,7 @@
 body {
     height: 100bh;
 margin: 0;
-
+padding: 0;
 }
 
 .header {
@@ -24,3 +24,27 @@ color: #eee;
     display: flex;
 gap: 32px;
 }
+
+.main-1-container {
+    background-color: RGB(29	40	56	);
+    color: #eee;
+height: 400px;
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+align-items: center;
+       
+}
+
+.main-1-left {
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 50px;
+}
+
+/* .main-1-left.main-1-right {
+    width: 100px;
+height: 100px;
+} */
