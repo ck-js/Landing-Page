@@ -178,12 +178,24 @@ border-radius: 5px;
 color: #eee;
 border: 2px solid #eee;
 border-radius: 6px;
-padding: 8px 16px;
+padding: 8px 22px;
 font-size: 18px;
 }
 
-.main-4-item-left.text {
+.main-4-item-left .text-1 {
     font-weight: 900;
-opacity: 0;
+
 }
 
+.main-4-item-left .text-2 {
+    opacity: 0.8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: RGB(29	40	56	);
+color: #eee;
+padding: 60px;
+}
